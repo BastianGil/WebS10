@@ -11,6 +11,7 @@ function paginaCargada(){
     var barra = document.querySelector('.datos__barra');
     var crear = document.querySelector('.datos__crear');
     var imgs = document.querySelector('.imgs');
+    var cambio;
 
 function pintarBarra(){
     barra.style.backgroundColor= 'rgb('+r.value+','+g.value+','+b.value+')';
